@@ -2,19 +2,24 @@ body {
   font-family: 'Montserrat';
 }
 
-h1 {  font-family: 'Montserrat';
-      font-size: 3.5rem;
-      line-height: 1.5;
-      font-weight: 900;
-      color: white;
-    }
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
 
-#title{
+#title {
   background-color: #ff4c68;
 }
 
 .container-fluid {
   padding: 3% 15%;
+}
+
+.check-icon {
+  align: center;
 }
 
 .navbar-brand {
@@ -23,8 +28,36 @@ h1 {  font-family: 'Montserrat';
   font-weight: 500;
 }
 
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 0;
+}
+
+.features {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #EF8172;
+  font-size: 80px;
+  padding-bottom: 2rem;
+}
+
+.feature-link :hover {
+  color: #f78888;
+  font-size: 95px;
+}
+
+.feature-header {
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+.feature-text {
+color: #8F8F8F;
 }
 
 .nav-link {
@@ -35,9 +68,13 @@ h1 {  font-family: 'Montserrat';
 
 .iphone6 {
   width: 60%;
-  transform:rotate(25deg);
-  -ms-transform:rotate(25deg); /* IE 9 */
-  -moz-transform:rotate(25deg); /* Firefox */
-  -webkit-transform:rotate(25deg); /* Safari and Chrome */
-  -o-transform:rotate(25deg); /* Opera */
+  transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  /* IE 9 */
+  -moz-transform: rotate(25deg);
+  /* Firefox */
+  -webkit-transform: rotate(25deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(25deg);
+  /* Opera */
 }
