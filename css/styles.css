@@ -10,6 +10,15 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2.0rem;
+  line-height: 1.5;
+  font-weight: 550;
+  color: white;
+
+}
+
 #title {
   background-color: #ff4c68;
 }
@@ -36,6 +45,12 @@ h1 {
   padding: 7% 0;
 }
 
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5%;
+}
+
 .features {
   padding: 5%;
 }
@@ -57,7 +72,7 @@ h1 {
 }
 
 .feature-text {
-color: #8F8F8F;
+  color: #8F8F8F;
 }
 
 .nav-link {
